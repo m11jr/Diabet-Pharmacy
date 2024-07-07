@@ -7,13 +7,13 @@ body{
   margin: 5px;
 }
 #logo img{
-  width: 75px;
-  margin-top: -8px;
+  width: 90px;
+  margin-top: -3px;
 }
 header{
   width: 100%;
   text-align: center;
-  background-color: #7c73e6;
+  background-image: url(../imagesources/Header.png);
   border-radius: 12px;
 
 
@@ -80,6 +80,6 @@ font-size: 1.5em;
 margin-top: 10px;
 }
 #logo img{
-  display: none;
+  
 }
 }
