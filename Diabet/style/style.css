@@ -1,0 +1,85 @@
+
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: #c4c1e0;
+  margin: 5px;
+}
+#logo img{
+  width: 75px;
+  margin-top: -8px;
+}
+header{
+  width: 100%;
+  text-align: center;
+  background-color: #7c73e6;
+  border-radius: 12px;
+
+
+}
+#general{
+width: 100%;
+height: 50px;
+display: flex;
+justify-content: space-around;
+
+}
+#list{
+  list-style-type: none;
+  justify-content: center;
+  display: flex;
+gap:50px;
+}
+
+#list a{
+  text-decoration: none;
+
+}
+#logGL{
+  list-style-type: none;
+
+}
+#logG a{
+  text-decoration: none;
+  color: white;
+
+}
+#logo{
+  margin-left: 20px;
+}
+.CenteredBar{
+  color: white;
+}
+
+.CenteredBar:hover,  .CenteredBar:focus{
+  background-color: #eaf6f6;
+  color: #7c73e6;
+
+}
+
+
+
+@media (min-width:991px) {
+
+}
+
+@media (max-width:990px) and (min-width:680px) {
+#general{
+
+}
+}
+
+@media (max-width:679px) {
+h1{
+  margin: 0px;
+  margin-top: 7px;
+  color: white;
+display: block;
+font-size: 1.5em;
+margin-top: 10px;
+}
+#logo img{
+  display: none;
+}
+}
