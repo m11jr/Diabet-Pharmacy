@@ -1,0 +1,81 @@
+.medicinetypes{
+  list-style-type: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:3%;
+  background-image: url(../imagesources/Header.png);
+  margin: 20px;
+  border-radius: 12px;
+  height: 50px;
+}
+.medicinetypes a{
+  text-decoration: none;
+  color: white;
+}
+.medicinetypes a:hover, .medicinetypes a:focus{
+  color:  #7C73E6;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.MedType1{
+  justify-content: center;
+  display: flex;
+  margin: 10px;
+}
+
+.Medtype1div{
+  height: 450px;
+color: white;
+font-family: "Roboto", sans-serif;
+  width: 80%;
+  background-image: url(../imagesources/body.png);
+    border-radius: 12px;
+    overflow-y: auto;
+
+}
+
+.Medtype1div ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 15%;
+}
+.Medtype1div ul li img{
+  width: 100px;
+}
+
+
+.MedType2{
+  justify-content: center;
+  display: flex;
+  margin: 10px;
+  margin-top: 30px;
+}
+p{
+  text-align: center;
+  color: white;
+}
+
+.Medtype2div{
+  height: 450px;
+color: white;
+font-family: "Roboto", sans-serif;
+  width: 80%;
+  background-image: url(../imagesources/body.png);
+    border-radius: 12px;
+    overflow-y: auto;
+
+}
+
+.Medtype2div ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 15%;
+}
+.Medtype2div ul li img{
+  width: 100px;
+}
