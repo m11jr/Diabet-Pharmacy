@@ -26,6 +26,7 @@
   margin: 10px;
 }
 
+
 .Medtype1div{
   height: 450px;
 color: white;
@@ -42,9 +43,15 @@ font-family: "Roboto", sans-serif;
   display: flex;
   justify-content: center;
   gap: 15%;
+  align-self: center;
 }
 .Medtype1div ul li img{
-  width: 100px;
+  width: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border: 2px solid white;
+  
 }
 
 
@@ -77,5 +84,79 @@ font-family: "Roboto", sans-serif;
   gap: 15%;
 }
 .Medtype2div ul li img{
-  width: 100px;
+  width: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border: 2px solid white;
+  
+}
+
+.Medtype1div div{
+  text-align: center;
+  background-image: url(../imagesources/BackMedicine.png);
+  border-radius: 7px;
+  
+  backdrop-filter: blur (120px);
+ 
+}
+
+.Medtype2div div{
+  text-align: center;
+  background-image: url(../imagesources/BackMedicine.png);
+  border-radius: 7px;
+  
+  backdrop-filter: blur (120px);
+ 
+}
+.SearchBar{
+margin-left: auto;
+margin-right: auto;
+display: block;
+  
+}
+.Medtype3div div{
+  text-align: center;
+  background-image: url(../imagesources/BackMedicine.png);
+  border-radius: 7px;
+  
+  backdrop-filter: blur (120px);
+ 
+}
+
+.MedType3{
+  justify-content: center;
+  display: flex;
+  margin: 10px;
+  margin-top: 30px;
+}
+p{
+  text-align: center;
+  color: white;
+}
+
+.Medtype3div{
+  height: 450px;
+color: white;
+font-family: "Roboto", sans-serif;
+  width: 80%;
+  background-image: url(../imagesources/body.png);
+    border-radius: 12px;
+    overflow-y: auto;
+
+}
+
+.Medtype3div ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 15%;
+}
+.Medtype3div ul li img{
+  width: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border: 2px solid white;
+  
 }
