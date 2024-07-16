@@ -83,6 +83,10 @@ gap:50px;
     font-size: 24px;
     cursor: pointer;
 }
+h2{
+  color: green;
+  font-weight: 400;
+}
 
 
 #DermanA{
@@ -178,42 +182,22 @@ h3{
 }
 
 footer{
-width: 100%;
+color: white;
   height: 150px;
   border-radius: 12px;
-display: flex;
-justify-content: space-around;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+
 
   background-color:#7C73E6;
-  padding: 0px;
-  margin: 0px;
+  
+  
 }
 
 
 
-.foot1{
-  color: white;
-  font-family: "Roboto", sans-serif;
-  width: 30%;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
 
-.foot2{
-color: white;
-  justify-content: center;
-  width: 30%;
-  color: white;
-  font-family: "Roboto", sans-serif;
-
-}
-.copy{
-  justify-content: center;
-  width: 30%;
-  color: white;
-  font-family: "Roboto", sans-serif;
-}
 
 .Hekim a{
   text-decoration: underline;
@@ -222,7 +206,21 @@ color: white;
 .Hekim a:hover, .Hekim a:focus{
   color: black;
 }
+h3{
+  color: green;
+  font-weight: 450;
+}
 
+.Copyright{
+  justify-content: center;
+  display: flex;
+  margin: auto 0 auto 0;
+ 
+ 
+}
+.WorkingHours ul{
+  list-style-type: none;
+}
 
 
 
